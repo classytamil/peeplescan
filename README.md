@@ -48,6 +48,36 @@ PeepleScan can be implemented in **large supermarket stores** at the **main entr
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/peeplescan.git
 cd peeplescan
+
+### 2. Install Dependencies
+
+pip install -r requirements.txt
+
+### 3. Download YOLO and Gender Model Files
+
+  -Download yolov8s.pt from Ultralytics
+
+  -Download gender_deploy.prototxt and gender_net.caffemodel from:
+    OpenCV's Age-Gender model repo
+
+  -Place the downloaded files in the project root directory.
+
+###🧪 Run the App
+streamlit run app.py
+
+###📊 Sample Log (CSV Format)
+timestamp,people_count,genders
+2025-05-29 14:23:12,2,Male, Female
+2025-05-29 14:23:18,1,Female
+
+###📂 Project Structure
+
+peeplescan/
+├── app.py                     # Main Streamlit app
+├── gender_deploy.prototxt     # Gender classification model config
+├── gender_net.caffemodel      # Gender classification model weights
+├── yolov8s.pt                 # YOLOv8 model weights
+├── README.md
+└── requirements.txt
