@@ -1,0 +1,10 @@
+Project Name: PeepleScan
+Tagline: "AI-powered people detection and gender analysis in real time."
+Core Technologies: YOLOv8, FaceMesh, OpenCV, Gender Classification
+
+Key Features:
+
+Real-time human detection
+Accurate gender classification using facial analysis
+Live people counting
+Webcam or video stream support
