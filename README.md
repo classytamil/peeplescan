@@ -51,11 +51,14 @@ PeepleScan can be implemented in **large supermarket stores** at the **main entr
 ```bash
 git clone https://github.com/your-username/peeplescan.git
 cd peeplescan
+bash```
+
 
 ### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+bash```
 
 ### 3. Download YOLO and Gender Model Files
 
@@ -69,12 +72,14 @@ pip install -r requirements.txt
 ###🧪 Run the App
 ```bash
 streamlit run app.py
+bash```
 
 ###📊 Sample Log (CSV Format)
 ```bash
 timestamp,people_count,genders
 2025-05-29 14:23:12,2,Male, Female
 2025-05-29 14:23:18,1,Female
+bash```
 
 ###📂 Project Structure
 
@@ -86,3 +91,4 @@ peeplescan/
 ├── yolov8s.pt                 # YOLOv8 model weights
 ├── README.md
 └── requirements.txt
+bash```
