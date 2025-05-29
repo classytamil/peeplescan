@@ -69,7 +69,9 @@ streamlit run app.py
 
 ### 📊 Sample Log (CSV Format)
 timestamp,people_count,genders
+
 2025-05-29 14:23:12,2,Male, Female
+
 2025-05-29 14:23:18,1,Female
 
 ### 📂 Project Structure
