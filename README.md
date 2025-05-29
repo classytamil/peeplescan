@@ -53,6 +53,7 @@ git clone https://github.com/your-username/peeplescan.git
 cd peeplescan
 bash```
 
+---
 
 ### 2. Install Dependencies
 
