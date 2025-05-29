@@ -64,16 +64,16 @@ pip install -r requirements.txt
 
   -Place the downloaded files in the project root directory.
 
-###🧪 Run the App
+### 🧪 Run the App
 streamlit run app.py
 
-###📊 Sample Log (CSV Format)
+### 📊 Sample Log (CSV Format)
 timestamp,people_count,genders
 2025-05-29 14:23:12,2,Male, Female
 2025-05-29 14:23:18,1,Female
 
-###📂 Project Structure
-
+### 📂 Project Structure
+```bash
 peeplescan/
 ├── app.py                     # Main Streamlit app
 ├── gender_deploy.prototxt     # Gender classification model config
